@@ -1,0 +1,4 @@
+Nesse local encontram-se os arquivos utilizados para comunicar um STM32 mestre com um STM32 escravo (4).
+O mestre manda a mensagem para o escravo de qual frequencia ele deve usar;
+O mestre sempre envia um numero de 1 a 20 e quando esse numero chega no escravo, o escravo realiza o cálculo desse numero vezes 1000;
+Após realizar o calculo, o escravo usa como a frequencia 1.
